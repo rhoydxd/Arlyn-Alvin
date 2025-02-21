@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+
+/* https://colorhunt.co/palette/fff2f2a9b5df7886c72d336b */
+:root {
+    --primary-color: #A9B5DF;
+    --secondary-color: #7886C7;
+    --teriary-color: #2D336B;
+    --background-color:#FFF2F2;
+}
+
+
+
+
+
+
+/* --------------- INDEX.HTML -------------- */
+
+.hero {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/aabackground.jpg') center/cover no-repeat;
+
+}
+.logo img{
+    height: 300px;
+}
+.form-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255,242,242,.7);
+    border-radius: 25px;
+    align-items: center;
+    border: none;
+}
+
+input[type="text"] {
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background-color: rgba(255,242,242,0);
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+}
+input[type="button"] {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: white;    font-family: inherit;
+    font-size: 16px;
+}
+input[type="button"]:hover {
+    background-color: #5c6fc3;
+    cursor: pointer;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+input[type="text"]::placeholder {
+    color: black;
+}
+
+
+
+
+
+/* --------------- HOME.HTML -------------- */
+#home{
+    background-color: var(--secondary-color);
+}
+
+/* Navigation */
+.navigation{
+    max-width: 90%;
+    margin: auto;
+    background: var(--background-color);
+    padding: 0 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.wedding-logo img {
+    height: 70px;
+    width: 70px;
+}
+
+.navigation-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu ul li{
+    list-style: none;
+}
+
+.main-menu ul {
+    display: flex; 
+    gap: 20px;
+}
+
+.main-menu{
+    display: flex;
+    gap: 20px;
+}
+.fa-facebook{
+    color: #316FF6;
+    font-size: 25px;
+}
+
+.fa-x-twitter{
+    color: #657786;
+    font-size: 25px;
+}
+.fa-instagram{
+
+    font-size: 25px;
+}
+
+
+/* Hero Section */
+.home-hero{
+    margin: auto;
+    margin-top: 20px;
+    height: 50vh;
+    background: url('/images/dustyblueflowers.webp') center/cover no-repeat;
+    display: flex;
+}
+
+.card-div{
+    background-color: rgba(120,134,199,.5);
+    height: 70%;
+    width: 60%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    /* .aa-logo img{
+        height: 350px;
+        width: 350px;
+    } */
+
+    .hero-ptext p:first-of-type{
+        font-family: "Great Vibes", serif;
+        text-align: center;
+        font-size: 80px;
+        line-height: 1;
+    }
+    .hero-ptext p:nth-of-type(2){
+        font-family: "Poppins", serif;
+        text-align: center;
+        font-size: 20px;
+        line-height: 0;
+    }
