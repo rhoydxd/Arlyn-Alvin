@@ -156,11 +156,6 @@ body#home {
     flex-direction: column;
     }
 
-    /* .aa-logo img{
-        height: 350px;
-        width: 350px;
-    } */
-
     .hero-ptext p:first-of-type{
         font-family: "Great Vibes", serif;
         text-align: center;
@@ -175,8 +170,51 @@ body#home {
     }
 
 
+/* Wedding Info Section */
+    .wedding-info{
+        border-top: 5px solid var(--primary-color);
+    }
+    .wed-info-container{    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .wed-photo,
+    .wed-text{
+        width: 50%;
+    }
+
+    .wed-text{
+        text-align: center;
+    }
+
+    .wed-photo img{
+        width: 100%;
+    }
+
+    .wed-text p:first-of-type{
+        font-family: "Great Vibes", serif;
+        font-size: 35px;
+    }
+
+    .wed-text i{  
+        font-size: 35px;
+        opacity: .6;
+    }
+    .wed-text{  
+        font-size: 18px;
+    }
 
 
+
+
+
+
+
+
+    
+/* Slider */
     .list{
         margin-top: 20px;
     }
