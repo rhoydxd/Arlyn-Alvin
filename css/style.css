@@ -82,7 +82,7 @@ input[type="text"]::placeholder {
 
 
 /* --------------- HOME.HTML -------------- */
-#home{
+body#home {
     background-color: var(--secondary-color);
 }
 
@@ -165,7 +165,7 @@ input[type="text"]::placeholder {
         font-family: "Great Vibes", serif;
         text-align: center;
         font-size: 80px;
-        line-height: 1;
+        line-height: 0.8;
     }
     .hero-ptext p:nth-of-type(2){
         font-family: "Poppins", serif;
