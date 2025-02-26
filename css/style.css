@@ -75,7 +75,7 @@ input[type="text"]::placeholder {
 /* --------------- HOME.HTML -------------- */
 body#home {
   background-color: var(--secondary-color);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Navigation */
