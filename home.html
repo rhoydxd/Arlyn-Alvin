@@ -1,101 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/global.css/">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnsect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/global.css/" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnsect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
     <title>Arlyn & Alvin</title>
-</head>
-<body id="home">
+  </head>
+  <body id="home" class="body-overflow-toggle">
     <div class="main-container">
-
-        <!-- Navigation Bar -->
-        <nav class="navigation">
-            <div class="navigation-flex">
-                <div class="wedding-logo">
-                    <img src="./images/AA Logo1.png" alt="">
-                </div>
-                <div class="main-menu">
-                    <ul>
-                        <li>Gallery</li>
-                        <li>Schedule</li>
-                        <li>Venue</li>
-                    </ul>
-                    <div class="social-logos">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                </div>
+      <!-- Navigation Bar -->
+      <nav class="navigation">
+        <!-- Desktop Menu -->
+        <div class="navigation-flex">
+          <div class="wedding-logo">
+            <img src="./images/AA Logo1.png" alt="" />
+          </div>
+          <div class="main-menu">
+            <ul>
+              <li>Gallery</li>
+              <li>Schedule</li>
+              <li>Venue</li>
+            </ul>
+            <div class="social-logos">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
-        </nav>
+          </div>
+        </div>
 
+        <!-- Mobile Menu -->
+        <div class="mobile-nav-menu">
+          <div class="wedding-logo">
+            <img src="./images/AA Logo1.png" alt="" />
+          </div>
+          <div class="menu-button-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="mobile-menu-container">
+        <div class="mobile-menu">
+          <ul>
+            <li>Gallery</li>
+            <li>Schedule</li>
+            <li>Venue</li>
+          </ul>
+          <div class="social-logos">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Main Section -->
+      <main>
+        <!-- Hero -->
 
-        <!-- Main Section -->
-        <main>
+        <section class="home-hero">
+          <div class="card-div">
+            <div class="hero-ptext">
+              <p>
+                Arlyn <br />
+                and <br />
+                Alvin
+              </p>
+              <p>Invites you</p>
+            </div>
+          </div>
+        </section>
 
-            <!-- Hero -->
+        <!-- Wedding info -->
+        <section class="wedding-info">
+          <div class="wed-info-container">
+            <div class="wed-text">
+              <p>Save the Date</p>
+              <i class="fa-regular fa-calendar"></i>
+              <p>May 05, 2025</p>
+              <i class="fa-solid fa-church"></i>
+              <p>Camotes, Camotes, Camotes</p>
+            </div>
+            <div class="wed-photo">
+              <img src="./images/resources/Arlyn.jpg" alt="" />
+            </div>
+          </div>
+        </section>
 
-            <section class="home-hero">
-                <div class="card-div">
-                    <div class="hero-ptext">
-                        <p>Arlyn <br> and <br> Alvin</p>
-                        <p>Invites you</p>
-                    </div>
-                </div>  
-            </section>
+        <!-- Slider -->
 
-
-            <!-- Wedding info -->
-            <section class="wedding-info">
-                <div class="wed-info-container">
-                    <div class="wed-text">
-                        <p>Save the Date</p>
-                        <i class="fa-regular fa-calendar"></i>
-                        <p>May 05, 2025</p>
-                        <i class="fa-solid fa-church"></i>
-                        <p>Camotes, Camotes, Camotes</p>
-                    </div>
-                    <div class="wed-photo">
-                        <img src="./images/resources/Arlyn.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- Slider -->
-
-            <section class="section-slider">
-                <div class="slider" style="
-                    --width: 200px;
-                    --height: 300px;
-                    --quantity: 7;
-                ">
-                    <div class = "list">
-                        <div class="item" style="--position: 1"><img src="./images/resources/Alvin&Arlyn.jpg" alt=""></div>
-                        <div class="item" style="--position: 2"><img src="./images/resources/Alvin&Arlyn2.jpg" alt=""></div>
-                        <!-- <div class="item" style="--position: 3"><img src="./images/resources/Alvin&Arlyn1.jpg" alt=""></div> -->
-                        <div class="item" style="--position: 3"><img src="./images/resources/Alvin&Arlyn3.jpg" alt=""></div>
-                        <div class="item" style="--position: 4"><img src="./images/resources/Alvin&Arlyn4.jpg" alt=""></div>
-                        <div class="item" style="--position: 5"><img src="./images/resources/Alvin&Arlyn5.jpg" alt=""></div>
-                        <!-- <div class="item" style="--position: 7"><img src="./images/resources/Alvin&Arlyn6.jpg" alt=""></div> -->
-                        <div class="item" style="--position: 6"><img src="./images/resources/Alvin&Arlyn7.jpg" alt=""></div>
-                        <!-- <div class="item" style="--position: 9"><img src="./images/resources/Alvin&Arlyn8.jpg" alt=""></div> -->
-                        <div class="item" style="--position: 7"><img src="./images/resources/Alvin&Arlyn9.jpg" alt=""></div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
+        <section class="section-slider">
+          <div
+            class="slider"
+            style="--width: 200px; --height: 300px; --quantity: 7"
+          >
+            <div class="list">
+              <div class="item" style="--position: 1">
+                <img src="./images/resources/Alvin&Arlyn.jpg" alt="" />
+              </div>
+              <div class="item" style="--position: 2">
+                <img src="./images/resources/Alvin&Arlyn2.jpg" alt="" />
+              </div>
+              <!-- <div class="item" style="--position: 3"><img src="./images/resources/Alvin&Arlyn1.jpg" alt=""></div> -->
+              <div class="item" style="--position: 3">
+                <img src="./images/resources/Alvin&Arlyn3.jpg" alt="" />
+              </div>
+              <div class="item" style="--position: 4">
+                <img src="./images/resources/Alvin&Arlyn4.jpg" alt="" />
+              </div>
+              <div class="item" style="--position: 5">
+                <img src="./images/resources/Alvin&Arlyn5.jpg" alt="" />
+              </div>
+              <!-- <div class="item" style="--position: 7"><img src="./images/resources/Alvin&Arlyn6.jpg" alt=""></div> -->
+              <div class="item" style="--position: 6">
+                <img src="./images/resources/Alvin&Arlyn7.jpg" alt="" />
+              </div>
+              <!-- <div class="item" style="--position: 9"><img src="./images/resources/Alvin&Arlyn8.jpg" alt=""></div> -->
+              <div class="item" style="--position: 7">
+                <img src="./images/resources/Alvin&Arlyn9.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 </html>
